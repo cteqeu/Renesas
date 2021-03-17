@@ -1,0 +1,8 @@
+-input="./RX62T_UART.obj"
+-input="./dbsct.obj"
+-input="./hwsetup.obj"
+-input="./intprg.obj"
+-input="./printf_lib.obj"
+-input="./resetprg.obj"
+-input="./sbrk.obj"
+-input="./vecttbl.obj"
