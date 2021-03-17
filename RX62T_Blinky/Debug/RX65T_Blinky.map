@@ -1,0 +1,25 @@
+Optimizing Linkage Editor (V.10.02.00.000)        17-Mar-2021 10:59:26
+
+*** Options ***
+
+-library=C:\Users\20002890\MYDOCU~1\e2studio\WORKSP~1\RX62T_~1\Debug\RX62T_Blinky.lib
+-noprelink
+-list=RX65T_Blinky.map
+-nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/01000,PResetPRG/0FFFF8000,C_1,C_2,C,C$*,D*,P,PIntPRG,W*/0FFFF8100,FIXEDVECT/0FFFFFFD0
+-nologo
+-nomessage
+-rom=D=R,D_1=R_1,D_2=R_2
+-output=C:\Users\20002890\My Documents\e2studio\workspace\RX62T_Blinky\Debug\RX62T_Blinky.abs
+-subcommand=C:/Users/20002890/My Documents/e2studio/workspace/RX62T_Blinky\Debug\LinkerSubCommand.tmp
+-input="./RX62T_Blinky.obj"
+-input="./dbsct.obj"
+-input="./hwsetup.obj"
+-input="./intprg.obj"
+-input="./resetprg.obj"
+-input="./sbrk.obj"
+-input="./vecttbl.obj"
+
+*** Error information ***
+
+** L3300 (F) Cannot open file : "C:\Users\20002890\MYDOCU~1\e2studio\WORKSP~1\RX62T_~1\Debug\RX62T_Blinky.lib"
